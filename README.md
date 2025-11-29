@@ -9,7 +9,7 @@ It is a quick guide to get you up and running. It covers the following topics. B
 - To build the application from Terminal / Command Prompt
 - Change directory to the project root directory and type `gradle build` and press enter
 - To run the application and type `gradle bootRun` and press enter
-- To run the application and output console logs to a file type `gradle bootRun --console=plain --no-daemon`
+- To run the application and output console logs to a file type `gradle bootRun 2>&1 | tee console.log` and press enter
 
 ### Testing the application
 
